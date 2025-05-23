@@ -68,7 +68,8 @@ quote of the same kind."
     (setq last-command-event
           (if (looking-back (format smart-quotes-left-context
                                     (format "%c%c" (nth 0 electric-quote-chars)
-                                            (nth 2 electric-quote-chars))))
+                                            (nth 2 electric-quote-chars)))
+                            nil)
               open close))
     (self-insert-command 1)))
 
