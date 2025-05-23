@@ -1,4 +1,4 @@
-;;; smart-quotes.el --- Smart Quotes minor mode for GNU Emacs
+;;; smart-quotes.el --- Smart Quotes minor mode for GNU Emacs  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2007-2011 Gareth Rees
 ;; Copyright (C) 2011-2016 Reuben Thomas
